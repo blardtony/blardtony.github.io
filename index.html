@@ -64,9 +64,9 @@
           <div class="subheading mb-5">27 rue général Fabvier Nancy 54000 -  <a href="tel">+33646119490  </a>
             <a href="mailto:name@email.com">   tonyblard55@email.com</a>
           </div>
-          <p class="lead mb-5 ecrit">Je suis actuellement en formation développeur web et web mobile, je suis donc à la recherche d'un stage qui aura pour durée 3 semaines.</p>
+          <p class="lead mb-5 ecrit">Je suis actuellement en formation développeur web et web mobile, je suis donc à la recherche d'un stage qui aura une durée de 3 semaines.</p>
           <div class="social-icons">
-            <a href="https://www.linkedin.com/in/tony-blard-1483a1168/">
+            <a href="https://www.linkedin.com/in/tony-blard-1483a1168/"  data-toggle="tooltip" data-placement="bottom" title="Linkedin">
               <i class="fab fa-linkedin-in"></i>
             </a>
             <a href="https://github.com/blardtony">
@@ -175,18 +175,19 @@
       <div class="w-100">
         <h2 class="mb-5">Compétences</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">Languages de programmtions et outils</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <a data-toggle="tooltip" data-placement="right" title="HTML"><i class="fab fa-html5 fa-lg"></i></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <a data-toggle="tooltip" data-placement="right" title="CSS"><i class="fab fa-css3-alt fa-lg"></i></a>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <a data-toggle="tooltip" data-placement="right" title="Javascript"><i class="fab fa-js-square fa-lg"></i></a>
           </li>
           <li class="list-inline-item">
+            <a data-toggle="tooltip" data-placement="right" title="Atom"><i class="fas fa-atom fa-lg"></i></a>
 
 
         </ul>
@@ -194,11 +195,27 @@
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
-            <i class="fa-li fa fa-check"></i>
+            <i class="fa-li fa fa-check fa-lg"></i>
             <p class="ecrit">Création site web et mobile.<p></li>
 
         </ul>
+        <div class="subheading mb-3">Languages</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check fa-lg"></i>
+            <p class="ecrit">Français : langue natale.<p>
+
+            <i class="fa-li fa fa-check fa-lg"></i>
+            <p class="ecrit">Anglais : Professionel.<p>
+
+          </li>
+
+        </ul>
+
+
       </div>
+
+
     </section>
 
     <hr class="m-0">
@@ -236,6 +253,12 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.js"></script>
+
+    <script>
+      $(function () {
+        $('a').tooltip()
+      })
+    </script>
 
 
 
