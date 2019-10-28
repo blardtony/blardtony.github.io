@@ -25,4 +25,25 @@
     target: '#sideNav'
   });
 
+  //Script tooltip
+  $(function () {
+    $('a').tooltip()
+  });
+
+
+
 })(jQuery); // End of use strict
+
+
+
+
+// Le scroll smooth
+//var elements = document.getElementById('navbar').querySelectorAll('[data-link]')
+  //for (var i = 0;  i < elements.length; i++) {
+    //elements[i].addEventListener('click', function (e) {
+      //e.preventDefault();
+      //var id = e.target.getAttribute('href')
+      //var element = document.getElementById(id.replace('#', ''))
+      //element.scrollIntoView({behavior: "smooth"})
+    //})
+  //}
